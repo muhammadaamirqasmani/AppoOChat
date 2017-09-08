@@ -1,0 +1,6 @@
+framework module Pods_AppoOChat {
+  umbrella header "Pods-AppoOChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

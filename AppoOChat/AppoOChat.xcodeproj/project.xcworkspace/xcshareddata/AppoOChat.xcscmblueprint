@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "23914218F00E4FD84F2D606D791C9958813E37DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "23914218F00E4FD84F2D606D791C9958813E37DD" : 9223372036854775807,
+    "6010BD980E57D0D1A8DE3B1B0D0BC126D8DFFBCD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "12C547A4-1B32-410C-A354-F04C39C62858",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "23914218F00E4FD84F2D606D791C9958813E37DD" : "Swift-3-IOS-Projects-samples\/",
+    "6010BD980E57D0D1A8DE3B1B0D0BC126D8DFFBCD" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AppoOChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AppoOChat\/AppoOChat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/muhammadaamirqasmani\/Swift-3-IOS-Projects-samples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23914218F00E4FD84F2D606D791C9958813E37DD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/muhammadaamirqasmani\/Swift-3-IOS-Projects-samples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6010BD980E57D0D1A8DE3B1B0D0BC126D8DFFBCD"
+    }
+  ]
+}
