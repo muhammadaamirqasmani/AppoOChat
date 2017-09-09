@@ -17,7 +17,7 @@ class PostMasterVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         textView.delegate = self
-
+        sendBtn.bindToKeybord()
         // Do any additional setup after loading the view.
     }
 

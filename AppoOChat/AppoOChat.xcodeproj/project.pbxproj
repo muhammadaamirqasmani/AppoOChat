@@ -18,6 +18,8 @@
 		776AD7671F4476C60003BC81 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776AD7661F4476C60003BC81 /* DataService.swift */; };
 		777930221F45E04700B5F96D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777930211F45E04700B5F96D /* AuthVC.swift */; };
 		777930241F45E0B800B5F96D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777930231F45E0B800B5F96D /* LoginVC.swift */; };
+		840CD1581F63FD2F00BD1DE9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CD1571F63FD2F00BD1DE9 /* Message.swift */; };
+		840CD15A1F64200A00BD1DE9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CD1591F64200A00BD1DE9 /* FeedCell.swift */; };
 		849F873D1F5EB74E000961DA /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F873C1F5EB74E000961DA /* MeVC.swift */; };
 		849F873F1F5EC604000961DA /* PostMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F873E1F5EC604000961DA /* PostMasterVC.swift */; };
 		84A493F11F603524002EC509 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A493F01F603524002EC509 /* UIViewExt.swift */; };
@@ -41,6 +43,8 @@
 		777930211F45E04700B5F96D /* AuthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		777930231F45E0B800B5F96D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		781B320577FCEAF1DD25E3CB /* Pods-AppoOChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppoOChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppoOChat/Pods-AppoOChat.debug.xcconfig"; sourceTree = "<group>"; };
+		840CD1571F63FD2F00BD1DE9 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		840CD1591F64200A00BD1DE9 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		849F873C1F5EB74E000961DA /* MeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		849F873E1F5EC604000961DA /* PostMasterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostMasterVC.swift; sourceTree = "<group>"; };
 		84A493F01F603524002EC509 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 			children = (
 				84DD7FDC1F558F53006DB4B9 /* InsertTextField.swift */,
 				84DD7FE01F55A6F5006DB4B9 /* ShadowView.swift */,
+				840CD1591F64200A00BD1DE9 /* FeedCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 		77053E801F3F3B8900C55312 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				840CD1571F63FD2F00BD1DE9 /* Message.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -297,8 +303,10 @@
 				77053E6F1F3F3B2E00C55312 /* GroupVC.swift in Sources */,
 				84DD7FE31F55A8FF006DB4B9 /* AuthService.swift in Sources */,
 				777930241F45E0B800B5F96D /* LoginVC.swift in Sources */,
+				840CD15A1F64200A00BD1DE9 /* FeedCell.swift in Sources */,
 				84DD7FE11F55A6F5006DB4B9 /* ShadowView.swift in Sources */,
 				77053E6B1F3F3B2E00C55312 /* AppDelegate.swift in Sources */,
+				840CD1581F63FD2F00BD1DE9 /* Message.swift in Sources */,
 				77053E6D1F3F3B2E00C55312 /* FeedVC.swift in Sources */,
 				776AD7671F4476C60003BC81 /* DataService.swift in Sources */,
 				849F873F1F5EC604000961DA /* PostMasterVC.swift in Sources */,
@@ -426,7 +434,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 781B320577FCEAF1DD25E3CB /* Pods-AppoOChat.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = SUBZ24DP5B;
 				INFOPLIST_FILE = AppoOChat/Info.plist;
@@ -441,7 +449,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A219269CF7CB4958A0E211B1 /* Pods-AppoOChat.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = SUBZ24DP5B;
 				INFOPLIST_FILE = AppoOChat/Info.plist;
