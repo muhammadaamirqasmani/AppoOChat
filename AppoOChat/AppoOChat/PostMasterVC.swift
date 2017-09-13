@@ -21,7 +21,10 @@ class PostMasterVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-  
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.userEmaiID.text = FIRAuth.auth()?.currentUser?.email
+    }
    
     @IBAction func sendBtnWasPressed(_ sender: Any) {
         if textView.text != nil && textView.text != "Say Something Here..."{
